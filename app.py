@@ -21,6 +21,15 @@ print(animal.upper().isupper() )
 from math import *
 my_num=30.2
 print(ceil(my_num))
-name=input("Enter your name:")
-age=input("Enter your age")
-print("Hello " + name+ "!"+"You are "+age+" years old")
+#asking input from user
+#name=input("Enter your name:")
+#age=input("Enter your age")
+#print("Hello " + name+ "!"+"You are "+age+" years old")
+#CREATING LISTS
+friends=["jim", "jane", "joy"]
+print(friends[2])
+#tupples
+my_coordinates=(5,6)
+print(my_coordinates)
+more_coordinates=[(6,7),(6,8),(70,4)]
+print(more_coordinates)
